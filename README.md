@@ -37,7 +37,7 @@ https://github.com/vlssu/panel
 ----
 下载源码 将 `resources` 与 `app` 文件夹对安装后的面板文件进行覆盖操作
 
-PS：你也可以直接`clone`本项目，因为我是基于最新发布的版本进行汉化的，只替换这两个是不够的，你需要将`package.json``yarn.lock`也替换一下，因为部分依赖原因。。。
+PS：你也可以直接`clone`本项目，因为我是基于最新发布的版本进行汉化的，只替换这两个是不够的，你需要将`package.json` `yarn.lock`也替换一下，因为部分依赖原因。。。
 
 
 ### 重新构建面板
