@@ -36,7 +36,7 @@ https://github.com/vlssu/panel
                 
 ----
 下载源码 将 `resources` 与 `app` 文件夹对安装后的面板文件进行覆盖操作
-PS：你也可以直接`clone`本项目，因为我是基于最新发布的版本进行汉化的，只替换这两个是不够的，你需要将`package.json``composer.json``yarn.lock``composer.lock`也替换一下，因为部分依赖原因。。。
+PS：你也可以直接`clone`本项目，因为我是基于最新发布的版本进行汉化的，只替换这两个是不够的，你需要将`package.json``yarn.lock`也替换一下，因为部分依赖原因。。。
 
 
 ### 重新构建面板
@@ -74,5 +74,5 @@ yarn build:production       # 开始构建面板
 
 `您可以使用命令 yarn run watch 几乎实时地查看构建的进度`
 
-> 本汉化及部分文本基于[ilworkcn](https://github.com/ilworkcn) （由于该作者很长时间没去汉化最新的了，所以我就是自己汉化了一手）
-> 由于仓库不能直接fork他的，我只(也只能)引用他汉化文本，而不是直接复制。
+> 本汉化部分文本基于[ilworkcn](https://github.com/ilworkcn) （由于该作者很长时间没去汉化最新的了，所以我自己汉化了一手，毕竟有现成的为啥不去引用一波呢）
+> 由于仓库不能直接fork他的，必须用官方的才能汉化最新的，所以我只(也只能)引用他部分有限的汉化文本，而不是直接完全复制粘贴哦~
