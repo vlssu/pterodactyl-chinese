@@ -1,7 +1,7 @@
 # 翼龙面板中文汉化 来自 [VLssu.com](https://vlssu.com/)
 
 - 目前支持 翼龙面板 V1.8.1 （实际比此版本更高）；
-- 汉化已完成至 用户面板 管理面板正在进行汉化 详情见汉化仓库 Projects ；
+- 汉化已完成 详情见汉化仓库 Projects ；
 - 仅修改内核语言部分！您大可放心使用，我本人也在使用我的 Fork 版本 ；
 
 ## 注意事项
@@ -30,14 +30,14 @@
 ### 访问汉化仓库
                 
 ----
-https://github.com/vlssu/panel
+https://github.com/vlssu/panel-chinese
 
 ### 下载源码并进行覆盖操作
                 
 ----
-下载源码 将 `resources` 与 `app` 文件夹对安装后的面板文件进行覆盖操作
+下载源码 将 `resources` 与 `app` 文件夹 `package.json` `yarn.lock` 对安装后的面板文件进行覆盖操作
 
-PS：你也可以直接`clone`本项目，因为我是基于最新发布的版本进行汉化的，只替换这两个是不够的，你需要将`package.json` `yarn.lock`也替换一下，因为部分依赖原因。。。
+PS：你也可以直接`clone`本项目，因为我是基于最新发布的版本进行汉化的，所以你直接将我的覆盖你原本的程序会更好一点。
 
 
 ### 重新构建面板
