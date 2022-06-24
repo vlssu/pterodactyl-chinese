@@ -5,7 +5,7 @@
 - 仅修改内核语言部分！您大可放心使用，我本人也在使用我的 Fork 版本 ；
 
 ## 汉化作者说明
-- 本汉化主要基于 [ilworkcn](https://github.com/ilworkcn) ，引用时间为2022年6月8日，此后 [ilworkcn](https://github.com/ilworkcn) 汉化部分我将不在引用，后续汉化或修改基于 [vlssu](https://github.com/vlssu) ，于 [ilworkcn](https://github.com/ilworkcn) 此后汉化没有任何关系 ~~(主要是从头汉化太头疼了，所以以[ilworkcn](https://github.com/ilworkcn)为基础上完善汉化)~~
+- 本汉化主要基于 [ilworkcn](https://github.com/ilworkcn) ，引用时间为2022年6月8日，此后 [ilworkcn](https://github.com/ilworkcn) 汉化部分我将不在引用，后续汉化或修改基于 [vlssu](https://github.com/vlssu) ，于 [ilworkcn](https://github.com/ilworkcn) 此后汉化没有直接关系 ~~(主要是从头汉化太头疼了，所以以[ilworkcn](https://github.com/ilworkcn)为基础上完善汉化)~~
 
 - 当然，我使用面板会更频繁，所以我会第一时间知道我的面板哪边需要改进，因此，我汉化更改了以下部分
   - 将gravatar更换为cravatar （由于国内无法正常使用，所以我换了）
@@ -31,6 +31,7 @@
                 
 ----
 https://github.com/vlssu/panel-chinese
+- 这里建议直接拉取使用，覆盖使用可能会出现问题
 
 ### 下载源码并进行覆盖操作
                 
