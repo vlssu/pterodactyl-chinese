@@ -5,7 +5,7 @@
 - 仅修改内核语言部分！您大可放心使用，我本人也在使用我的 Fork 版本 ；
 
 ## 汉化作者说明
-- 本汉化主要基于 [ilworkcn](https://github.com/ilworkcn) ，引用时间为2022年6月8日，后续汉化或修改基于 [vlssu](https://github.com/vlssu) ~~(主要是从头汉化太头疼了，所以以[ilworkcn](https://github.com/ilworkcn)为基础上完善汉化)~~
+- 本汉化主要基于 [ilworkcn](https://github.com/ilworkcn) ，引用时间为2022年6月8日，此后 [ilworkcn](https://github.com/ilworkcn) 汉化部分我将不在引用，后续汉化或修改基于 [vlssu](https://github.com/vlssu) ~~(主要是从头汉化太头疼了，所以以[ilworkcn](https://github.com/ilworkcn)为基础上完善汉化)~~
 
 ## 注意事项
 
