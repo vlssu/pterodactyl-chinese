@@ -5,10 +5,11 @@
 - 仅修改内核语言部分！您大可放心使用，我本人也在使用我的 Fork 版本 ；
 
 ## 汉化作者说明
-- 本汉化主要基于 [ilworkcn](https://github.com/ilworkcn) ，引用时间为2022年6月8日，此后 [ilworkcn](https://github.com/ilworkcn) 汉化部分我将不在引用，后续汉化或修改基于 [vlssu](https://github.com/vlssu) ，于 [ilworkcn](https://github.com/ilworkcn) 此后汉化没有直接关系 ~~(主要是从头汉化太头疼了，所以当时使用[ilworkcn](https://github.com/ilworkcn)现成汉化基础上的完善汉化)~~
+- 本汉化主要基于 [ilworkcn](https://github.com/ilworkcn) ，引用时间为2022年6月8日，此后 [ilworkcn](https://github.com/ilworkcn) 汉化部分我将不在引用，后续汉化或修改基于 [vlssu](https://github.com/vlssu) ，于 [ilworkcn](https://github.com/ilworkcn) 此后汉化没有直接关系 ~~(主要是从头汉化太头疼了，所以当时使用[ilworkcn](https://github.com/ilworkcn)现成汉化，在此基础上完善汉化)~~
 
 - 当然，我使用面板会更频繁，所以我会第一时间知道我的面板哪边需要改进，因此，我汉化更改了以下部分
   - 将gravatar更换为cravatar （由于国内无法正常使用，所以我换了）
+  - 语言设置为中文优先（可能主要手动设置，在数据库那边会直观的看见所设置的语言，前端并不会直接显示）
 
 ## 注意事项
 
@@ -40,9 +41,35 @@ https://github.com/vlssu/panel-chinese
 
 PS：你也可以直接`clone`本项目，因为我是基于最新发布的版本进行汉化的，所以你直接将我的覆盖你原本的程序会更好一点。（是的，我就是这样）
 
-
+### 替换官方前端部分方案
+----
+```
+# 进入你网站的目录
+cd /var/www/pterodactyl
+进入维护模式
+php artisan down
+# 拉取项目
+git clone https://gitee.com/vlssu/panel-chinese.git
+# 删除除了`storage/*` `bootstrap/cache` `.env` 这三个目录和文件外的内容
+# 复制拉取内容并替换网站目录
+cp panel-chinese/* .
+# 给网站目录全部附加755权限
+chmod -R 755 *
+# 安装composer依赖
+composer install --no-dev --optimize-autoloader
+# 清除已编译的模板缓存
+php artisan view:clear
+php artisan config:clear
+# 数据库更新
+php artisan migrate --seed --force
+# 设置权限为www用户（记得根据实际情况）
+chown -R www:www *
+# 重启工作队列
+php artisan queue:restart
+# 退出维护模式
+php artisan up
+```
 ### 重新构建面板
-                
 ----
 > 此部分引用于 https://pterodactyl.io/community/customization/panel.html
 > Panel 的前端是用 React 构建的。 对源文件的任何更改都需要重新编译。
