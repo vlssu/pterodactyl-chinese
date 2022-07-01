@@ -41,8 +41,9 @@ https://github.com/vlssu/panel-chinese
 
 PS：你也可以直接`clone`本项目，因为我是基于最新发布的版本进行汉化的，所以你直接将我的覆盖你原本的程序会更好一点。（是的，我就是这样）
 
-### 直接使用我的库的替换方案
 ----
+### 直接使用我的库的替换方案
+#### 首次替换
 ```
 # 进入你网站的目录
 cd /var/www/pterodactyl
@@ -62,6 +63,9 @@ php artisan view:clear
 php artisan config:clear
 # 数据库更新
 php artisan migrate --seed --force
+# 编译前端
+yarn install
+yarn build:production
 # 设置权限为www用户（记得根据实际情况）
 chown -R www:www *
 # 重启工作队列
@@ -69,8 +73,35 @@ php artisan queue:restart
 # 退出维护模式
 php artisan up
 ```
-### 重新构建面板————替换官方前端部分方案
+#### 更新步骤
+```
+# 进入你网站的目录
+cd /var/www/pterodactyl
+进入维护模式
+php artisan down
+# 拉取项目
+git pull
+# 给网站目录全部附加755权限
+chmod -R 755 *
+# 安装composer依赖
+composer install --no-dev --optimize-autoloader
+# 清除已编译的模板缓存
+php artisan view:clear
+php artisan config:clear
+# 数据库更新
+php artisan migrate --seed --force
+# 编译前端
+yarn install
+yarn build:production
+# 设置权限为www用户（记得根据实际情况）
+chown -R www:www *
+# 重启工作队列
+php artisan queue:restart
+# 退出维护模式
+php artisan up
+```
 ----
+### 重新构建面板————替换官方前端部分方案
 > 此部分引用于 https://pterodactyl.io/community/customization/panel.html
 > Panel 的前端是用 React 构建的。 对源文件的任何更改都需要重新编译。
 以下部分说明了如何执行此操作。 
