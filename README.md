@@ -14,4 +14,5 @@ https://github.com/pterodactyl-china/panel
 * Gravatar 切换至 Cravatar (国内进入后台时终于可以正常使用了！不用再卡住了)
 * 让 reCAPTCHA 在国内可以使用了。
 * 文档中文化，部署、更新、自定义都能简而易懂！
+* 初始部署情况下，命令行内容汉化，使其更通俗易懂
 * 更多...
