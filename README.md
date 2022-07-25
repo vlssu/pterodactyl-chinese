@@ -13,4 +13,5 @@ https://github.com/pterodactyl-china/panel
 * Docker 镜像国内化 （预设汉化并使用我构建至国内的 Docker 镜像）
 * Gravatar 切换至 Cravatar (国内进入后台时终于可以正常使用了！不用再卡住了)
 * 让 reCAPTCHA 在国内可以使用了。
+* 文档中文化，部署、更新、自定义都能简而易懂！
 * 更多...
