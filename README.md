@@ -17,4 +17,5 @@ https://github.com/pterodactyl-china/panel
 * 初始部署情况下，命令行内容汉化，使其更通俗易懂
 * 面板 Docker 中文汉化，不需要太多额外设置即可部署面板 (见[Packages](https://github.com/pterodactyl-china/panel/pkgs/container/panel)，[如何使用的说明点我](https://github.com/pterodactyl-china/panel/blob/develop/.github/docker/README.md))
 * 增加备案号的填写入口和显示
+* 优化登录页的显示效果
 * 更多...
