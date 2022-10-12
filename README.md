@@ -4,6 +4,7 @@
 
 如果要查看仓库请前往
 https://github.com/pterodactyl-china/panel
+https://github.com/pterodactyl-china/wings
 
 如何使用，，，就是直接下载覆盖即可
 更多详细信息请查看 https://pterodactyl.top/
@@ -18,4 +19,5 @@ https://github.com/pterodactyl-china/panel
 * 面板 Docker 中文汉化，不需要太多额外设置即可部署面板 (见[Packages](https://github.com/pterodactyl-china/panel/pkgs/container/panel)，[如何使用的说明点我](https://github.com/pterodactyl-china/panel/blob/develop/.github/docker/README.md))
 * 增加备案号的填写入口和显示
 * 优化登录页的显示效果
+* wings(后端)国内化，DNS、文字、编码(在解压中文压缩包时，不会再出现乱码的现象了！！！)
 * 更多...
