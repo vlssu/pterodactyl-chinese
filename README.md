@@ -2,11 +2,11 @@
 
 # 翼龙面板中文汉化 来自 [VLssu.com](https://vlssu.com/)
 
-如果要查看仓库请前往
-https://github.com/pterodactyl-china/panel
+如果要查看仓库请前往  
+https://github.com/pterodactyl-china/panel  
 https://github.com/pterodactyl-china/wings
 
-如何使用，，，就是直接下载覆盖即可
+> 如何使用？（和 pterodactyl 官方一样，100%匹配），可直接下载覆盖  
 更多详细信息请查看 https://pterodactyl.top/
 
 ### 针对翼龙官方基础上的优化/更改内容
@@ -21,3 +21,10 @@ https://github.com/pterodactyl-china/wings
 * 优化登录页的显示效果
 * wings(后端)国内化，DNS、文字、编码(在解压中文压缩包时，不会再出现乱码的现象了！！！)
 * 更多...
+
+***
+### 一些额外的内容
+
+* [egg - 游戏/软件预设](https://github.com/pterodactyl-china/eggs)
+* [Docker 镜像 - pterodactyl-china](https://github.com/pterodactyl-china/yolks)
+* [Docker 拓展镜像 - vlssu](https://github.com/vlssu/pterodactyl-yolks)
