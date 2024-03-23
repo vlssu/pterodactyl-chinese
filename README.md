@@ -2,7 +2,7 @@
 
 # 翼龙面板中文汉化 来自 [VLssu.com](https://vlssu.com/)
 
-如果要查看仓库请前往  
+此仓库仅作为引导仓库，如果要查看仓库请前往  
 https://github.com/pterodactyl-china/panel  
 https://github.com/pterodactyl-china/wings
 
@@ -17,7 +17,7 @@ https://github.com/pterodactyl-china/wings
 * 文档中文化，部署、更新、自定义都能简而易懂！
 * 初始部署情况下，命令行内容汉化，使其更通俗易懂
 * 面板 Docker 中文汉化，不需要太多额外设置即可部署面板 (见[Packages](https://github.com/pterodactyl-china/panel/pkgs/container/panel)，[如何使用的说明点我](https://github.com/pterodactyl-china/panel/blob/develop/.github/docker/README.md))
-* 增加备案号的填写入口和显示
+* 增加备案号、公安备案的填写入口和显示
 * 优化登录页的显示效果
 * wings(后端)国内化，DNS、文字、编码(在解压中文压缩包时，不会再出现乱码的现象了！！！)
 * 更多...
@@ -25,6 +25,6 @@ https://github.com/pterodactyl-china/wings
 ***
 ### 一些额外的内容
 
-* [egg - 游戏/软件预设](https://github.com/pterodactyl-china/eggs)
+* [egg - 游戏/软件预设](https://github.com/pterodactyl-china/parkervcp-eggs)
 * [Docker 镜像 - pterodactyl-china](https://github.com/pterodactyl-china/yolks)
 * [Docker 拓展镜像 - vlssu](https://github.com/vlssu/pterodactyl-yolks)
